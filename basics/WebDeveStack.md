@@ -1,5 +1,5 @@
 # _**Web Developmenet Stack**_
-![webStack](../image/webStack.jpg)
+![webStackDotNet](../image/webStackDotNet.png)
 
 ## **Web Application Parts and Services**
 
