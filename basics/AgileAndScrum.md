@@ -1,4 +1,4 @@
-# _Agile Method_
+# _**Agile Method**_
 **Definition:**
 It is the process of dividing the project into parts and working on each part separately.
 

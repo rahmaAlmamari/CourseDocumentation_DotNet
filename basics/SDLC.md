@@ -1,4 +1,4 @@
-# _Softwate Development Lif Cycle (SDLC)_
+# _**Softwate Development Lif Cycle (SDLC)**_
 ![sdlc](../image/sdls.png)
 
 ## **Analysis**
