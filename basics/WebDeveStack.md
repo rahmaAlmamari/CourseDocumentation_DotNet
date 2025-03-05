@@ -57,14 +57,79 @@ All web app divided inti three parts as the following:
 
 ## **Tool of .Net Stack**
 
-| .No | Parts Name | Tool Name |
-|-----|------------|-----------|
-|  1  | **Database**  | SQL Server |
-|  2  | **Programming Language** | C# |
-|  3  | **Framework** | .Net/ .Net Core |
-|  4  | **APT** | Post Man |
-|  5  | **Client Side Rendering** | Blazor/ Angular/ Nextjs |
-|  6  | **Server Side Rendering** | MVC/ Blazor |
-|  7  | **ORM** | Entity Framework/ Dapper |
-|  8  | **Back-End** | VisualStudio and SSMS |
-|  9  | **Front-End** | VSCode |
+| .No | Parts Name                | Tool Name                |
+|-----|---------------------------|--------------------------|
+|  1  | **Database**              | SQL Server               |
+|  2  | **Programming Language**  | C#                       |
+|  3  | **Framework**             | .Net/ .Net Core          |
+|  4  | **APT**                   | Post Man                 |
+|  5  | **Client Side Rendering** | Blazor/ Angular/ Nextjs  |
+|  6  | **Server Side Rendering** | MVC/ Blazor              |
+|  7  | **ORM**                   | Entity Framework/ Dapper |
+|  8  | **Back-End**              | VisualStudio and SSMS    |
+|  9  | **Front-End**             | VSCode                   |
+
+## **~~NOTE:~~**
+1. The most common project developer can do:
+
+      | Project Type     | For What | Example                       |
+      |------------------|----------|-------------------------------|
+      | Web App          | Browser  | Amazon Website                |
+      | Mobile App       | Phone    | Talabat App                   |
+      | Desktop App      | PC       | VS Code, Zoom                 |
+      | Embedded Systems | Devices  | ATM Machine                   |
+      | Console App      | Games    | Games in Xbox and Palystation |
+
+2. **Web app is the most widely used and most important type of project developer can do because it is the most comprehensive and general and its codes can be used to create mobile app, All what we have to do is changing the front-end code.**
+
+3. The title of developer based on project type:
+
+      | Title                      | Project Type     |
+      |----------------------------|------------------|
+      | Full Stack Developer       | Web App          |
+      | Back-end Developer         | Web App          |
+      | Front-end Developer        | Web App          |
+      | Mobile Developer           | Mobile App       |
+      | Desktop Developer          | Desktop App      |
+      | Embedded Systems Developer | Embedded Systems |
+      | Console Developer          | Console App      |
+
+4. **In the field of programming _Stack_ as word does not mean a programming language, it means all tool we need to used in data tier, logic tier and presentation tier.**
+
+
+# _**What Happen After Developmenet Stage Is Finished**_
+
+After development stage is finished the project will go throw other stages which are listed **in order** as the following:
+
+## 1. Testing Stage
+
+   * In this stage we have three type of testing based on the code type:
+      | Testing Type | Code Type                                |           Tool |
+      |--------------|------------------------------------------|----------------|
+      | Unit Test    | To Test Back-end Code and Database       | X Unit         |
+      | API Test     | To Teat The Link between The Parts "API" | Post Man       |
+      | Manual Test  | To Test Front-end Code                   | With Your Eyes |
+
+   * Testing can be done with two concept:
+   
+      1. White Testing: Its when we test the performance of the web app with the right options, it know alos as "Test to pass".
+      2. Black Testing: Its when we test the performance of the web app with the wrong options to see how the web app will respond to that, it know alos as "Test to fail".
+
+
+## 2. Deploymenet Stage
+
+   In this stage we will publish the web app to a server so every one can access it, we can do that by buying our own serevr which will be called in this situation **"impress server"** or we can publish our web app in a server which is not ours and it will called in this situation **"cloud server"**, and their are so many tools to do that for example: Docker and Azure.
+
+
+## 3. Security Stage
+
+   In this stage we must ensure that the web app is following the scurity standards and one tool to used here is owass.
+
+
+## 4. Maintenance Stage
+
+    In this stage we will correct errors that appear to the user -if they appear- using log and one tool to be used here is serilog.
+
+
+## **~~NOTE:~~** 
+Sometime some of the services provided by your webb app are not implemented on your web app but they are implemented by external part, so there most be a thired part to link your web app with the external part this thired part called **"Gateway"**, an example for that is withdrawing from the bank.
