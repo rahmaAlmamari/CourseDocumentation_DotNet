@@ -77,7 +77,7 @@
 3. Tester 
    * responsibility:
        He is the one who ensures that the web app services are working properly **Everything and everyone is a tool .. some tool can be used: Selenium, Firebug and OpenSTA**.
-4. Tester 
+4. DevOps 
    * responsibility:
        He is the one who have combines developmenet and operations skills to increase the efficiency, speed and security of the web app **one tool can be used: Jenkins**.
 
