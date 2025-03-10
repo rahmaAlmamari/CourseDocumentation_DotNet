@@ -10,6 +10,7 @@
 
 
    ![revers_PsudoCpde2](../image/revers_PsudoCpde2.png)
+   ![reverse_test](../image/reverse_test.jpg)
 
 2. search in list of student marks for the highest one?
 
@@ -21,6 +22,7 @@
 
     
     ![hig_mark_PsudoCpde2](../image/hig_mark_PsudoCpde2.png)
+    ![search_test](../image/search_test.jpg)
 
 
 3. sort the students marks from highest to lowest?
@@ -29,26 +31,31 @@
     2. set student marks in S[i] where S = mark , i = index
     3. take the first element (S[0]) of student mark array S[n]
     4. compare the current element with the next element (S[1])
-    5. if the current element is < the next element swap them 
+    5. if the current element is < the next element swap them by doing k = S[i], S[i] = S[i+1] and S[i+1] = k
     6. move to the next pair of element (S[1] and S[2]) and repeat steps 4 and 5
     7. repeat this process until you get to the end of the array (S[n]) at this point the lowest element will be at the last index (S[n-1]) 
     8. repeat steps 3 to 7 for the remaining unsorted elements
     9. repeat this process until the whole array is sorted
 
     ![sorte_PsudoCpde2](../image/sorte_PsudoCpde2.png)
+    ![sorte_test](../image/sorte_test.jpg)
 
 4. check if number is palindrome ( ex: 3443 is palindrome , 56 is not palindrome , 454 is palindrome )
 
-     1. set n where n is number to check if palindrome or not
-     2. set t = 0 , r = 0 and o = n where r is reversed number of n , o is the original number of n as reference , t is temporay variable to aply the logic for palindrome
-     3. do while loop with the condition (n != 0) for the following operations:
-         
-         t = n % 10
-         r = r * 10 + t
-         n = n / 10 
-    
-      4. when the while loop is finished check if r == o print n is palindrome if not print n is not palindrome
+    1. set num as array size to hold the number you want to palindrome
+    2. enter num
+    3. set number as array of size num, set index = 0
+    4. if index < num enter number in array number[index] then index = index + 1
+    5. repeat step 4 until index == num
+    6. set array reverse_number to hold the reverse number , set index = index - 1 and rev_index = 0
+    7. if rev_index < num do reverse_number[rev_index] = number[index]
+    8. repeat step 7 until rev_index == num
+    9. set count = 0 , rev_index = 0 and index = 0
+    10. check if number[index] == reverse_number[rev_index] do count = count + 1 , rev_index = rev_index + 1 , index = index + 1
+    11. repeat step 10 until index == num
+    12. if count == num print number is palindrome if not print number is not palindrome
 
 
     ![palindrome_PsudoCpde2](../image/palindrome_PsudoCpde2.png)
+    ![palindrome_test](../image/palindrome_test.jpg)
 
