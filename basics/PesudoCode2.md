@@ -9,7 +9,7 @@
    4. repeat step 3 until count == 0 
 
 
-   ![revers_PsudoCpde2](../image/revers_PsudoCpde2.png)
+   ![psudoCode2_recerse](../image/psudoCode2_recerse.png)
    ![reverse_test](../image/reverse_test.jpg)
 
 2. search in list of student marks for the highest one?
@@ -21,7 +21,7 @@
     5. if i < n repeat step 4 if not print hig_mark
 
     
-    ![hig_mark_PsudoCpde2](../image/hig_mark_PsudoCpde2.png)
+    ![hig_mark_PsudoCpde2](../image/psudoCode2_search.png)
     ![search_test](../image/search_test.jpg)
 
 
@@ -37,7 +37,9 @@
     8. repeat steps 3 to 7 for the remaining unsorted elements
     9. repeat this process until the whole array is sorted
 
-    ![sorte_PsudoCpde2](../image/sorte_PsudoCpde2.png)
+    ![sorte_PsudoCpde2](../image/psudoCode2_sorte.png)
+
+    **~~NOTE~~: This is test for sorte from lowest to highest**
     ![sorte_test](../image/sorte_test.jpg)
 
 4. check if number is palindrome ( ex: 3443 is palindrome , 56 is not palindrome , 454 is palindrome )
@@ -56,6 +58,6 @@
     12. if count == num print number is palindrome if not print number is not palindrome
 
 
-    ![palindrome_PsudoCpde2](../image/palindrome_PsudoCpde2.png)
+    ![palindrome_PsudoCpde2](../image/psudoCode2_palindrome.png)
     ![palindrome_test](../image/palindrome_test.jpg)
 
