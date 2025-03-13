@@ -133,3 +133,5 @@ After development stage is finished the project will go throw other stages which
 
 ## **~~NOTE:~~** 
 Sometime some of the services provided by your webb app are not implemented on your web app but they are implemented by external part, so there most be a thired part to link your web app with the external part this thired part called **"Gateway"**, an example for that is withdrawing from the bank.
+
+![gateway](../image/gateway.png)
