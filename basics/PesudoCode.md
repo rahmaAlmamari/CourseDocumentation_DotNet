@@ -11,7 +11,7 @@
 2. Finding Factorial of a Number (Iterative)?
 
    1. set factorial as n 
-   2. set tesult = 1 and y = 2
+   2. set result = 1 and y = 2
    3. check if n == 1 or n == 0 print result
    4. check if n < 0 print wrong input
    5. check if n > 1 if yes result = result * y , y+1
