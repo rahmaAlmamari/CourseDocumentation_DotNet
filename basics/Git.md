@@ -30,10 +30,17 @@ There are so many terms related to git, Some of them are the following:
 ![Staging Area](../image/StagingArea.PNG)
 
 
-3. **Localrepo:** Its the space where the codes are saved as a new copy of the project and be ready to push to the remote repo, and to move our code into this stage we need to use this command  `git commit -m"our message"`  and usually the files will not be shown in this stage.
+3. **Localrepo:** Its the space where the codes are saved as a new copy of the project and be ready to push to the remote repo, and to move our code into this stage we need to use this command  `git commit -m"our message"`  and usually the files will not be shown in this stage but it will tell us that **nothing to commit, working tree clean**.
 
-4. **Remote Repo:** Its a remote space where the main project is stored so that all team members can share their work with the rest of the team and get the latest update from the project.
+![Localrepo](../image/Localrepo.PNG)
 
+
+4. **Remote Repo:** Its a remote space where the main project is stored so that all team members can share their work with the rest of the team and get the latest update from the project, and if we go to the github repo will see that the commit is increasing in number.
+
+![Remote Repo](../image/Remote%20Repo.PNG)
+
+
+## Summary of the stages of Git work
 ![git3](../image/git3.jpg)
 
 ## **THE CLOUD REPOSITORIES THAT USES GIT VERSION CONTROL :**
@@ -54,8 +61,8 @@ There are so many terms related to git, Some of them are the following:
 
 ## **THE MOST COMMON COMMANDS USED IN GIT :**
 
-| Commands                                            | Function |
-|-----------------------------------------------------|--------|
+| Commands                                            | Function                                                                                 |
+|-----------------------------------------------------|------------------------------------------------------------------------------------------|
 | git config --global user.name “RahmaAlmamari”       | set global user name for your PC                                                         | 
 | git config --global user.email “rahma@gmail.com”    | link your PC with you account in remote repo using your email address                    |
 | git init                                            | initialise the git system in your project working directory                              |
@@ -69,4 +76,18 @@ There are so many terms related to git, Some of them are the following:
 | git remote                                          | list all link for remote repo you have in your PC                                        |
 | git push <alias>                                    | upload work commited work to the remote repo                                             |
 | git pull                                            | get or download the part you do not have in the main project which is in the remote repo |
+
+
+## ~~ADDITIONAL NOTES:~~
+
+
+![additional git note](../image/additionalNoteGit.PNG)
+
+**green line:** It represente my locl work where HEAD mean the last commit I add and master mean the projct it-self.
+**read line:** It represente my remote work where CD mean the link name _the link name can be any thing_ and master mean the projct it-self.
+
+In general, green line mean the last update for the project in my local machine and read line mean the last update for the project in the remote repo and if they are not in one line that mean every one of them in deferante update so in this case we need to do  `git push CD` so both locl project and remote project be in the same update.
+
+![git push](../image/gitPush.PNG)
+
 
