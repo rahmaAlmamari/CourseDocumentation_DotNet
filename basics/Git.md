@@ -21,9 +21,17 @@ There are so many terms related to git, Some of them are the following:
 ## **HOW GIT IS WORKING :**
 **There four main stage in using git as the following:**
 1. **Working Directory:** Its the workspace where the code can be modifiy and change without any restrictions, and usually the files will be shown in read color.
+
 ![Working Directory](../image/WorkingDirectory.PNG)
-2. **Staging Area:** Its the space where the codes are rewiewed before saving them as a new copy of the project and also here no modification can be made to the written code, and to move our code into this stage we need to use this command `git add .`
-3. **Localrepo:** Its the space where the codes are saved as a new copy of the project and be ready to push to the remote repo.
+
+
+2. **Staging Area:** Its the space where the codes are rewiewed before saving them as a new copy of the project and also here no modification can be made to the written code, and to move our code into this stage we need to use this command  `git add .`  and usually the files will be shown in green color.
+
+![Staging Area](../image/StagingArea.PNG)
+
+
+3. **Localrepo:** Its the space where the codes are saved as a new copy of the project and be ready to push to the remote repo, and to move our code into this stage we need to use this command  `git commit -m"our message"`  and usually the files will not be shown in this stage.
+
 4. **Remote Repo:** Its a remote space where the main project is stored so that all team members can share their work with the rest of the team and get the latest update from the project.
 
 ![git3](../image/git3.jpg)
