@@ -42,3 +42,6 @@
    2. count the number of letters you have in your string and store it in count
    3. print X[count-1]
    4. repeat step 3 until count == 0 
+
+
+**[Go back](../basics/IntroToAlgorithms.md).**

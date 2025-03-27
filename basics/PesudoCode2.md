@@ -61,3 +61,6 @@
     ![palindrome_PsudoCpde2](../image/psudoCode2_palindrome.png)
     ![palindrome_test](../image/palindrome_test.jpg)
 
+
+    **[Go back](../basics/IntroToAlgorithms.md).**
+
