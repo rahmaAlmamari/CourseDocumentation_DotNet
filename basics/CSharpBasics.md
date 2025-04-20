@@ -12,16 +12,17 @@ A C# program follows a specific structure, consisting of:
 
 using System;  // Importing built-in namespace 
 namespace MyFirstApp  // Namespace declaration 
-{ 
-} 
+{  
 class Program  // Class declaration 
-{ 
-} 
+{  
 static void Main()  // Main method (Entry point of the program) 
 { 
+    // here we write our program 
+    Console.WriteLine("Hello, World!");  // Print statement
 } 
-Console.WriteLine("Hello, World!");  // Print statement
-
+    // here we can add any method and use it in the main method
+}
+}
 ```  
 
 ## **2. Comments in C#**
